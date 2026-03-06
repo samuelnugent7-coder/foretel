@@ -1,0 +1,15 @@
+name: CoreClubFulfillment
+version: ${version}
+main: com.coreclub.fulfillment.CoreClubFulfillmentPlugin
+description: "Grants CoreClub ranks via HTTP webhook fulfillment"
+author: CoreClub
+api-version: "1.21"
+commands:
+  coreclubreload:
+    description: Reloads CoreClub fulfillment config
+    usage: /<command>
+    permission: coreclub.fulfillment.reload
+permissions:
+  coreclub.fulfillment.reload:
+    description: Allows reloading the fulfillment plugin
+    default: op

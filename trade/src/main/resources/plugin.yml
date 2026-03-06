@@ -1,0 +1,21 @@
+name: TradeUI
+main: me.trade.ui.TradePlugin
+version: ${version}
+author: snugent120
+api-version: 1.21
+softdepend:
+  - Vault
+  - Essentials
+commands:
+  trade:
+    description: Send a trade request to another player
+    usage: /trade <player>
+    permission: trade.use
+  tradeaccept:
+    description: Accept a pending trade request
+    usage: /tradeaccept <player>
+    permission: trade.use
+permissions:
+  trade.use:
+    description: Allows sending and accepting trades
+    default: true

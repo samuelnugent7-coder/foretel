@@ -1,0 +1,8 @@
+core_rank:
+  - "lp user %player% parent add core"
+mvp_rank:
+  - "lp user %player% parent add mvp"
+vip_rank:
+  - "lp user %player% parent add vip"
+vip_to_mvp:
+  - "lp user %player% parent add mvp"

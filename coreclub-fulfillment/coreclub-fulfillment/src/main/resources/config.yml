@@ -1,0 +1,11 @@
+# CoreClub Fulfillment Plugin Configuration
+listenHost: 0.0.0.0
+listenPort: 28080
+sharedToken: change-me
+encryptionKey: replace-with-32-byte-base64
+allowedIps:
+  - 127.0.0.1
+  - ::1
+requestTimeoutSeconds: 10
+commandTimeoutSeconds: 5
+logIncomingRequests: true

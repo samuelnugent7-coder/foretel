@@ -1,0 +1,6 @@
+requests:
+  expire-seconds: 60
+  cooldown-seconds: 3
+trade:
+  countdown-seconds: 3
+  gui-title: "&eTrade: {left} ↔ {right}"
